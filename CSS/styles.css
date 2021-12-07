@@ -1,0 +1,75 @@
+/* common */
+
+body {
+    margin: 0;
+  }
+  
+  img {
+    vertical-align: bottom;
+  }
+  
+  h1,h2,p {
+    margin: 0;
+  }
+  
+  h1,h2 {
+    font-weight: normal;
+  }
+  
+  .container,.promotion{
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* header */
+  
+  header {
+    background: #fcfcfc;
+  }
+  
+  header .container {
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  header .container div + div {
+    margin-left: 32px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header ul li + li {
+    margin-left: 8px;
+  }
+  
+  header .icon {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+  }
+  
+  header .container{
+    border-bottom: 1px solid 
+  }
+
+  main section .promotion{
+    text-align: center;
+  }
+
+  main section .sentence{
+    text-align: left;
+  }
+
+  main section ul li{
+    list-style: none;
+  }
