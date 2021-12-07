@@ -1,6 +1,4 @@
-/* common */
-
-body {
+  body {
     margin: 0;
   }
   
@@ -62,6 +60,7 @@ body {
     border-bottom: 1px solid 
   }
 
+  /* body */
   main section .promotion{
     text-align: center;
   }
